@@ -70,4 +70,4 @@ Route::get('/buscarEquipo/{texto}', 'EquipoController@buscarEquipo');
 
 Route::resource('/departamentos_ciudades', 'CiudadController');
 
-//mensaje
+Route::resource('/jugadores', 'JugadorController');
