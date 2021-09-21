@@ -71,3 +71,6 @@ Route::get('/buscarEquipo/{texto}', 'EquipoController@buscarEquipo');
 Route::resource('/departamentos_ciudades', 'CiudadController');
 
 Route::resource('/jugadores', 'JugadorController');
+
+//DESARROLLADOR 2
+Route::view('/entrenadores', 'paginas.entrenadores');
